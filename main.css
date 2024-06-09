@@ -54,6 +54,12 @@ a {
 .site-mobile-menu .site-mobile-menu-body {
   overflow-y: auto !important;
 }
+.form-control {
+  padding: 0 !important;
+}
+textarea {
+  padding: 1rem !important;
+}
 .col-lg-4 {
   padding-right: 0rem !important;
 }
