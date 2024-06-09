@@ -45,6 +45,7 @@ a {
   background-color: white;
   box-shadow: 10px 21px 21px 21px rgba(0, 0.1, 0.2, 0.1);
   z-index: 999999;
+  display: none;
 }
 
 .nav-link .dropdown div:hover {
@@ -52,4 +53,22 @@ a {
 }
 .site-mobile-menu .site-mobile-menu-body {
   overflow-y: auto !important;
+}
+.col-lg-4 {
+  padding-right: 0rem !important;
+}
+.row {
+  margin-left: 0rem !important;
+}
+header,
+.site-navbar {
+  padding: 0 !important;
+}
+
+.container {
+  padding: 0 !important;
+}
+
+.row {
+  width: 100% !important;
 }

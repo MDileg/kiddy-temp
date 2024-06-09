@@ -61,7 +61,7 @@
       margin: 48px 0 12px 22px;
     }
     div.panel {
-      max-width: 65%;
+      /* max-width: 65%; */
       margin: auto;
       margin-top: calc(5% - 0px);
     }
@@ -146,7 +146,7 @@
       top: calc(50% - 12px);
       bottom: 0;
       right: 0;
-      width: 6%;
+      /* width: 6%; */
     }
 
     .titleValue {
@@ -182,7 +182,7 @@
         role="banner"
       >
         <div class="container">
-          <div class="d-flex align-items-center" style="border-radius: 5px">
+          <div class="d-flex align-items-center" style="border-radius: 5px; padding: 1rem;">
             <span class="d-inline-block d-lg-none"
               ><a href="#" class="text-black site-menu-toggle js-menu-toggle"
                 ><span class="icon-menu h3 text-black"></span></a
@@ -286,6 +286,10 @@
         </div>
       </div>
 
+    
+      </div>
+
+
       <div class="site-section bg-light">
         <div class="container">
           <details>
@@ -382,22 +386,33 @@
         </div>
       </div>
 
-      <div class="bg-light">
-        <div class="container">
-          <div>
-            <div class="form-group row">
-              <textarea
-                name=""
-                id=""
-                class="form-control"
-                placeholder="Write your comment."
-                cols="20"
-                rows="4"
-              ></textarea>
-            </div>
-          </div>
+  <div class="site-section bg-light">
+    <div class="container">
+      <div class="form-group row">
+        <div class="col-md-12">
+          <textarea
+            name=""
+            id=""
+            class="form-control"
+            placeholder="Write a comment."
+            cols="30"
+            rows="10"
+          ></textarea>
         </div>
       </div>
+      <div class="row justify-content-center text-center">
+        <div >
+          <input
+            type="submit"
+            class="btn btn-block btn-primary text-white "
+            value="Send Comment"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
       <div class="site-section py-5 bg-warning">
         <div class="container">
